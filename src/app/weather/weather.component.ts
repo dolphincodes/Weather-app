@@ -30,11 +30,7 @@ export class WeatherComponent implements OnInit, OnChanges {
   }
 
   ngOnInit(): void {
-    this.connectionService.monitor().subscribe(isConnected => {
-      if (isConnected) {
-        this.getLocation();
-      }
-    });
+    this.getLocation();
   }
 
   ngOnChanges(changes: SimpleChanges): void {
