@@ -1,5 +1,8 @@
 import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import {FetchWeatherService} from '../fetch-weather.service';
+import {ConnectionService} from 'ng-connection-service';
+import {ConnectionDialogComponent} from '../app.component';
+import {MatDialog} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-weather',
@@ -21,17 +24,26 @@ export class WeatherComponent implements OnInit, OnChanges {
   };
   @Input() updateWeather: any;
 
-  constructor(public fetchWeatherService: FetchWeatherService) {
+  constructor(public fetchWeatherService: FetchWeatherService,
+              private connectionService: ConnectionService,
+              public dialog: MatDialog) {
   }
 
   ngOnInit(): void {
-    this.getLocation();
+    this.connectionService.monitor().subscribe(isConnected => {
+      if (isConnected) {
+        this.getLocation();
+      }
+    });
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    console.log(changes);
-    if (changes.updateWeather) {
-      this.getLocation();
+    if (changes.updateWeather.currentValue) {
+      this.connectionService.monitor().subscribe(isConnected => {
+        if (isConnected) {
+          this.getLocation();
+        }
+      });
     }
   }
 
@@ -46,7 +58,7 @@ export class WeatherComponent implements OnInit, OnChanges {
         },
         (error: PositionError) => alert(error.message));
     } else {
-      alert('Geolocation is not supported by this browser.');
+      this.openDialog('Geolocation is not supported by this browser.');
     }
   }
 
@@ -59,8 +71,18 @@ export class WeatherComponent implements OnInit, OnChanges {
       this.weather.city = response.name;
       this.weather.country = response.sys.country;
     }, error => {
-      alert('Unable to fetch weather data');
+      this.openDialog('Unable to fetch weather data.');
     });
+  }
+
+  public openDialog(message: string): void {
+    const dialogRef = this.dialog.open(ConnectionDialogComponent, {
+      width: '250px',
+      data: {message}
+    });
+    setTimeout(() => {
+      this.dialog.closeAll();
+    }, 5000);
   }
 
 

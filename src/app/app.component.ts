@@ -1,6 +1,6 @@
-import {Component} from '@angular/core';
+import {Component, Inject} from '@angular/core';
 import {ConnectionService} from 'ng-connection-service';
-import {MatDialog, MatDialogRef} from '@angular/material/dialog';
+import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from '@angular/material/dialog';
 
 @Component({
   selector: 'app-root',
@@ -38,7 +38,7 @@ export class AppComponent {
   public openDialog(): void {
     const dialogRef = this.dialog.open(ConnectionDialogComponent, {
       width: '250px',
-      data: {}
+      data: {message: 'No internet connection'}
     });
   }
 }
@@ -49,8 +49,8 @@ export class AppComponent {
 })
 export class ConnectionDialogComponent {
 
-  constructor(
-    public dialogRef: MatDialogRef<ConnectionDialogComponent>) {
+  constructor(public dialogRef: MatDialogRef<ConnectionDialogComponent>,
+              @Inject(MAT_DIALOG_DATA) public data: any) {
   }
 
 }

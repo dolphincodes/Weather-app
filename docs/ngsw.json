@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1606071174990,
+  "timestamp": 1606072919024,
   "index": "/weather-app/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/weather-app/favicon.ico",
         "/weather-app/index.html",
-        "/weather-app/main.3c926811a7c91ad6f8c1.js",
+        "/weather-app/main.79de56d9db70b920fcb9.js",
         "/weather-app/manifest.webmanifest",
         "/weather-app/polyfills.bf99d438b005d57b2b31.js",
         "/weather-app/runtime.359d5ee4682f20e936e9.js",
-        "/weather-app/styles.fcfe7ec18e9d12963ac3.css"
+        "/weather-app/styles.790838c7b430ec08ec3d.css"
       ],
       "patterns": []
     },
@@ -102,14 +102,14 @@
     "/weather-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/weather-app/assets/icons/unknown.png": "c779697fba26a3e86544f4734449176527da645b",
     "/weather-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/weather-app/index.html": "5a8e6d17960f9ac408fe0f8ebe9b06db7e8be958",
-    "/weather-app/main.3c926811a7c91ad6f8c1.js": "d077f139565c0f558668b4a04296a433af6311bb",
+    "/weather-app/index.html": "b337bfee58f51b480a09758e9895f7cd6f2fb15f",
+    "/weather-app/main.79de56d9db70b920fcb9.js": "cea9f59b98c6f8e304d2cb83a319de4714db649c",
     "/weather-app/manifest.webmanifest": "64af2eb70a190e4f3944b9ecd3677a894cfa1ef0",
     "/weather-app/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
     "/weather-app/rimouski_sb-webfont.2dd70b7073b217f55176.woff": "1c9369d27b1eac07e887969c6301d216c0f89e34",
     "/weather-app/rimouski_sb-webfont.69e1733e9893efec01cc.woff2": "2c5792c0dff66ce70b7b81172e991b498d303c5d",
     "/weather-app/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/weather-app/styles.fcfe7ec18e9d12963ac3.css": "acdfb4c0a1cf11579be57c7de893b2c583676812"
+    "/weather-app/styles.790838c7b430ec08ec3d.css": "acdfb4c0a1cf11579be57c7de893b2c583676812"
   },
   "navigationUrls": [
     {
