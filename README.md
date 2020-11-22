@@ -1,5 +1,10 @@
 # WeatherApp
 
+
+### This app is deployed  and can be accessed here:  https://dolphincodes.github.io/weather-app/
+Simple weather application developed using Angular.
+Tutorial by http://youtube.com/CodeExplained.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.2.
 
 ## Development server

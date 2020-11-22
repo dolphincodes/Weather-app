@@ -1,0 +1,133 @@
+{
+  "configVersion": 1,
+  "timestamp": 1606071174990,
+  "index": "/weather-app/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/weather-app/favicon.ico",
+        "/weather-app/index.html",
+        "/weather-app/main.3c926811a7c91ad6f8c1.js",
+        "/weather-app/manifest.webmanifest",
+        "/weather-app/polyfills.bf99d438b005d57b2b31.js",
+        "/weather-app/runtime.359d5ee4682f20e936e9.js",
+        "/weather-app/styles.fcfe7ec18e9d12963ac3.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/weather-app/assets/font/Rimouski.css",
+        "/weather-app/assets/font/rimouski_sb-webfont.ttf",
+        "/weather-app/assets/font/rimouski_sb-webfont.woff",
+        "/weather-app/assets/font/rimouski_sb-webfont.woff2",
+        "/weather-app/assets/icons/01d.png",
+        "/weather-app/assets/icons/01n.png",
+        "/weather-app/assets/icons/02d.png",
+        "/weather-app/assets/icons/02n.png",
+        "/weather-app/assets/icons/03d.png",
+        "/weather-app/assets/icons/03n.png",
+        "/weather-app/assets/icons/04d.png",
+        "/weather-app/assets/icons/04n.png",
+        "/weather-app/assets/icons/09d.png",
+        "/weather-app/assets/icons/09n.png",
+        "/weather-app/assets/icons/10d.png",
+        "/weather-app/assets/icons/10n.png",
+        "/weather-app/assets/icons/11d.png",
+        "/weather-app/assets/icons/11n.png",
+        "/weather-app/assets/icons/13d.png",
+        "/weather-app/assets/icons/13n.png",
+        "/weather-app/assets/icons/50d.png",
+        "/weather-app/assets/icons/50n.png",
+        "/weather-app/assets/icons/apple-touch-icon",
+        "/weather-app/assets/icons/icon-128x128.png",
+        "/weather-app/assets/icons/icon-144x144.png",
+        "/weather-app/assets/icons/icon-152x152.png",
+        "/weather-app/assets/icons/icon-192x192.png",
+        "/weather-app/assets/icons/icon-384x384.png",
+        "/weather-app/assets/icons/icon-512x512.png",
+        "/weather-app/assets/icons/icon-72x72.png",
+        "/weather-app/assets/icons/icon-96x96.png",
+        "/weather-app/assets/icons/unknown.png",
+        "/weather-app/rimouski_sb-webfont.2dd70b7073b217f55176.woff",
+        "/weather-app/rimouski_sb-webfont.69e1733e9893efec01cc.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/weather-app/assets/font/Rimouski.css": "12eed3007abcaad215a53a510594228da3dfe689",
+    "/weather-app/assets/font/rimouski_sb-webfont.ttf": "0c40d87209b5e78208f11eca6d70de3b720615a2",
+    "/weather-app/assets/font/rimouski_sb-webfont.woff": "1c9369d27b1eac07e887969c6301d216c0f89e34",
+    "/weather-app/assets/font/rimouski_sb-webfont.woff2": "2c5792c0dff66ce70b7b81172e991b498d303c5d",
+    "/weather-app/assets/icons/01d.png": "d04def0ba5192cf1bd6855840dc88189290c9e24",
+    "/weather-app/assets/icons/01n.png": "04101ab1b573a88d8cca04ee53fabf927a42873e",
+    "/weather-app/assets/icons/02d.png": "950fccc67016e45a0f01367eedb660f197e6017b",
+    "/weather-app/assets/icons/02n.png": "0616fbe435b172642a81a78115f5b1d1ce1b0a89",
+    "/weather-app/assets/icons/03d.png": "e68df05606b45a23d14f922af44bce31ebb9628c",
+    "/weather-app/assets/icons/03n.png": "0aebf8219645709fc14facfff31d0cecde7b774e",
+    "/weather-app/assets/icons/04d.png": "e35ec84b99e8843669f1ffd8131f2d42bdad43cd",
+    "/weather-app/assets/icons/04n.png": "e35ec84b99e8843669f1ffd8131f2d42bdad43cd",
+    "/weather-app/assets/icons/09d.png": "7e3d603956180c45b4878b50acfe1f7a3536276f",
+    "/weather-app/assets/icons/09n.png": "7e3d603956180c45b4878b50acfe1f7a3536276f",
+    "/weather-app/assets/icons/10d.png": "8769c07b35e05ebad4b64a6f894b638c5c37713b",
+    "/weather-app/assets/icons/10n.png": "8769c07b35e05ebad4b64a6f894b638c5c37713b",
+    "/weather-app/assets/icons/11d.png": "ba85654e9dc0f8c083980d60bb320d7db5524724",
+    "/weather-app/assets/icons/11n.png": "ba85654e9dc0f8c083980d60bb320d7db5524724",
+    "/weather-app/assets/icons/13d.png": "f7e52a6bdb5a4082f42021ee5002f6b1fe9ff0b9",
+    "/weather-app/assets/icons/13n.png": "f7e52a6bdb5a4082f42021ee5002f6b1fe9ff0b9",
+    "/weather-app/assets/icons/50d.png": "6d6389a39a991c547476d87f40d5173132376a75",
+    "/weather-app/assets/icons/50n.png": "6d6389a39a991c547476d87f40d5173132376a75",
+    "/weather-app/assets/icons/apple-touch-icon": "83ae5ee606b6cc97a2906a268ed96ad527530599",
+    "/weather-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/weather-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/weather-app/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/weather-app/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/weather-app/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/weather-app/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/weather-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/weather-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/weather-app/assets/icons/unknown.png": "c779697fba26a3e86544f4734449176527da645b",
+    "/weather-app/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/weather-app/index.html": "5a8e6d17960f9ac408fe0f8ebe9b06db7e8be958",
+    "/weather-app/main.3c926811a7c91ad6f8c1.js": "d077f139565c0f558668b4a04296a433af6311bb",
+    "/weather-app/manifest.webmanifest": "64af2eb70a190e4f3944b9ecd3677a894cfa1ef0",
+    "/weather-app/polyfills.bf99d438b005d57b2b31.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/weather-app/rimouski_sb-webfont.2dd70b7073b217f55176.woff": "1c9369d27b1eac07e887969c6301d216c0f89e34",
+    "/weather-app/rimouski_sb-webfont.69e1733e9893efec01cc.woff2": "2c5792c0dff66ce70b7b81172e991b498d303c5d",
+    "/weather-app/runtime.359d5ee4682f20e936e9.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/weather-app/styles.fcfe7ec18e9d12963ac3.css": "acdfb4c0a1cf11579be57c7de893b2c583676812"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

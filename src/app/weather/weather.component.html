@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="ie=edge" http-equiv="x-ua-compatible">
+  <title>Weather</title>
+</head>
+<body>
+<div class="container" fxLayout="column">
+  <div class="app-title" fxFlex="10%"><p>Weather</p></div>
+  <div class="notification" fxFlex="10%"></div>
+  <div class="weather-container" fxFlex="80%" fxLayout="column">
+    <div class="weather-icon" fxFlex="50%">
+      <img alt="weather status icon" src="./assets/icons/{{weather.iconId}}.png">
+    </div>
+    <div class="temperature-value" fxFlex="50%" fxLayout="column" fxLayoutAlign="space-evenly">
+      <p>{{weather.temperature}}°<span>C</span></p>
+      <div fxLayout="column" fxLayoutAlign="end">
+        <div class="temperature-description">
+          <p> {{weather.description}} </p>
+        </div>
+        <div class="location">
+          <p>{{weather.city}}, {{weather.country}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
