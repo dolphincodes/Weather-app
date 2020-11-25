@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {SwUpdate} from '@angular/service-worker';
 
 function promptUser(): boolean {
-  return true;
+  return confirm('Update to a new version?');
 }
 
 @Injectable({
